@@ -177,6 +177,7 @@ footer {
   border: 1px solid #f0f0ff;
   font-size: 14px;
   color: #333;
+  justify-content: space-between;
 }
 
 .avatar {
@@ -200,9 +201,31 @@ footer {
   white-space: nowrap;
 }
 
+.delete-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  min-width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.delete-btn:hover {
+  background-color: #b71c1c;
+}
+
 .no-participants {
   margin: 0;
   font-style: italic;
   color: #666;
   font-size: 14px;
 }
+
